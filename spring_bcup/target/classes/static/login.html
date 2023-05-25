@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="ext/theme-neptune-all.css">
+    <script type="text/javascript" src="ext/ext-all-debug.js"></script>
+    <script type="text/javascript" src="ext/ext-all.js"></script>
+</head>
+<body>
+<div class="container">
+    <form class="form-signin" method="post" action="/login">
+        <h2 class="form-signin-heading">Login</h2>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" class="form-control" placeholder="Username" required>
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" class="form-control" placeholder="Password" required>
+        </p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit"><a href="index.html"> Sign in </a></button>
+<!--
+        <h4><a href="/registration">Registration</a></h4>
+-->
+    </form>
+</div>
+</body>
+</html>
